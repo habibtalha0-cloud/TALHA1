@@ -1,0 +1,21 @@
+let firstname = "Talha";
+let lastname = "Habib";
+let fullname = firstname + "" + lastname;
+let age = 20;
+let city = "Karachi";
+let country = "Pakistan";
+let schoolname = "Sir Syed Childrens Academy";
+let favoriteSubject = "Computer Science";
+let yearofBirth = 2005;
+let currentYear = 2025;
+
+console.log(firstname);
+console.log(lastname);
+console.log(fullname);
+console.log(age);
+console.log(city);
+console.log(country);
+console.log(schoolname);
+console.log(favoriteSubject);
+console.log(yearofBirth);
+console.log(currentYear);
