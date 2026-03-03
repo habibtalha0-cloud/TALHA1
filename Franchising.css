@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    background:#fff;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+}
+
+.hero{
+    background:orange;
+    color:white;
+    padding:80px;
+    text-align:center;
+}
+
+.benefits{
+    padding:80px;
+    text-align:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:40px;
+}
+
+.card{
+    width:250px;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.1);
+}
+
+.apply{
+    background:#f4f4f4;
+    padding:80px;
+    text-align:center;
+}
+
+form{
+    max-width:400px;
+    margin:auto;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#27ae60;
+    border:none;
+    color:white;
+    border-radius:6px;
+}

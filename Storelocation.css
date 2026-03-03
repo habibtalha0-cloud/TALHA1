@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding:3px;
+    box-sizing:border-box;
+    font-family:Segoe UI;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:20px 60px;
+    background:orange;
+    box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+}
+
+.location{
+    text-align:center;
+    padding:80px;
+}
+
+.details{
+    margin:30px 0;
+}
+
+.map{
+    display:flex;
+    justify-content:center;
+}
